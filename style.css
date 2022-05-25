@@ -3,13 +3,46 @@ body {
 }
 
 .nav-items {
-  display: flex;
+ /* display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin: auto;*/
   padding: 10px 20px;
-  gap: 1.5rem;
-  justify-content: end;
-
+  /*gap: 1.5rem;
+  justify-content: end;*/
   list-style: none;
   background: #f1f1f1;
+}/*removed some of the properties from this class (by commenting them out) so they don't dupilicate the ones below which are more re-usable (i.e. not just limited to the nav)*/
+
+/*
+Adding classes for the layout i.e. center, stack, row and grid.
+*/
+
+.center {
+  max-width: 67%;
+  margin: 0 auto;
+}
+
+.stack > * + * {
+  margin-top: 1.5rem;
+}
+
+.stack-big > * + * {
+  margin-top: 4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(15rem, 1fr));
+  gap: 1.5rem;
 }

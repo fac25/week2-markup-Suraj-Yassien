@@ -3,40 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <!--adding some more meta elements in the three lines below-->
+    <meta name="description" content="Information about our agency and the members of our team"><!--This defines a description for the page-->
+    <meta name="keywords" content="Suraj, Yassien, Agency"> <!--This defines keywords for search engines-->
+    <meta name="author" content="Suraj, Yassien"> <!--This defines the authors of the page-->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Project</title>
+    <title>Suraj and Yassien's Agency Website</title> <!-- changed the title of thre page to something a bit more descriptive-->
   </head>
 
   <body>
-    <header> 
-      <nav>
-        <ul class="nav-items">
-          <li href="#">Home</li>
-          <li href="#">Introduction</li>
-          <li href="#">About Us</li>
-          <li href="#">Contact Form</li>
-        </ul>
-      </nav>
-    </header>
+    <main class="stack-big center"> <!--added a main tag-->
+      <header class="row"> 
+        <h1>____(insert agency name here)</h1><!--moved the h1 into the header-->
+        <nav>
+          <ul class="nav-items row justify-end"><!--filled in the href attributes to match the ids of the relevant sections-->
+            <li href="#">Home</li><!--do we need a link to home? our website only has one page...-->
+            <li href="#intro">Introduction</li>
+            <li href="#about">About Us</li>
+            <li href="#contact">Contact Form</li>
+          </ul>
+        </nav>
+      </header>
 
-    <section>
-      <h1>Introduction</h1>
-      <div>
-        <h2>Yassien</h2>
-        <p>Info...</p>
-      </div>
-
-      <div>
-        <h2>Suraj</h2>
-        <p>Info...</p>
-      </div>
+    <section id="intro">
+      <h2>Introduction</h2><!--changed this into a h2-->
+      <p>Hi! We are ____(insert agency name here) and we specialise in ____ (insert work that we do here)....</p><!--changed the content of the intro-->
     </section>
 
-    <section>
-      <h2>About us</h1>
+    <section id="about">
+      <h2>About us</h2>
+        <div class="grid">
+          <div>
+            <h3>Suraj</h3>
+            <p>bla bla bla</p>
+          </div>
+
+          <div>
+            <h3>Yassien</h3>
+            <p>bla bla</p>
+          </div>
+
+        </div>
+    </section>
+
+    <section id="contact"><!--added a section for the contact form to go into-->
+      <h2>Contact Form</h2>
     </section>
 
     <footer>Footer...</footer>
     <script src="script.js"></script>
+  </main>
   </body>
 </html>
