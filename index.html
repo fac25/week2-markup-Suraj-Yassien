@@ -8,13 +8,14 @@
     <meta name="keywords" content="Suraj, Yassien, Agency"> <!--This defines keywords for search engines-->
     <meta name="author" content="Suraj, Yassien"> <!--This defines the authors of the page-->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/91aed24cf5.js" crossorigin="anonymous"></script><!--this enables the use of font awesome icons on the page-->
     <title>Suraj and Yassien's Agency Website</title> <!-- changed the title of thre page to something a bit more descriptive-->
   </head>
 
   <body>
-    <main class="stack-big center"> <!--added a main tag-->
-      <header class="row"> 
-        <h1>____(insert agency name here)</h1><!--moved the h1 into the header-->
+    <main> <!--added a main tag-->
+      <header class="row justify-between"> 
+        <h1>(insert agency name here)</h1><!--moved the h1 into the header-->
         <nav>
           <ul class="nav-items row justify-end"><!--filled in the href attributes to match the ids of the relevant sections--> <!--also, added anchor tags for the links-->
             <li><a href="#">Home</a></li><!--do we need a link to home? our website only has one page...-->
@@ -24,34 +25,43 @@
           </ul>
         </nav>
       </header>
+    <div class="stack-big center">
+      <section id="intro">
+        <h2>Introduction</h2><!--changed this into a h2-->
+        <p>Hi! We are ____(insert agency name here) and we specialise in ____ (insert work that we do here)....</p><!--changed the content of the intro-->
+      </section>
 
-    <section id="intro">
-      <h2>Introduction</h2><!--changed this into a h2-->
-      <p>Hi! We are ____(insert agency name here) and we specialise in ____ (insert work that we do here)....</p><!--changed the content of the intro-->
-    </section>
-
-    <section id="about">
-      <h2>About us</h2>
+      <section id="about">
+        <h2>About us</h2>
         <div class="grid">
           <div>
             <h3>Suraj</h3>
+            <figure>
+              <img src="" alt="" >
+              <figcaption></figcaption>
+            </figure>
             <p>bla bla bla</p>
           </div>
 
           <div>
             <h3>Yassien</h3>
+            <figure>
+              <img src="" alt="" >
+              <figcaption></figcaption>
+            </figure>
             <p>bla bla</p>
           </div>
 
         </div>
-    </section>
+      </section>
 
-    <section id="contact"><!--added a section for the contact form to go into-->
-      <h2>Contact Form</h2>
-    </section>
+      <section id="contact"><!--added a section for the contact form to go into-->
+        <h2>Contact Form</h2>
+      </section>
 
     <footer>Footer...</footer>
-    <script src="script.js"></script>
+  </div>
   </main>
+  <script src="script.js"></script>
   </body>
 </html>
