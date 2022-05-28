@@ -1,21 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-items {
- /* display: flex;
-  flex-wrap: wrap;
-  margin: auto;*/
+  display: flex;
   padding: 10px 20px;
-  /*gap: 1.5rem;
-  justify-content: end;*/
   list-style: none;
   background: #f1f1f1;
-}/*removed some of the properties from this class (by commenting them out) so they don't dupilicate the ones below which are more re-usable (i.e. not just limited to the nav)*/
-
-/*
-Adding classes for the layout i.e. center, stack, row and grid.
-*/
+}
 
 .center {
   max-width: 67vw;
@@ -69,10 +66,53 @@ Adding classes for the layout i.e. center, stack, row and grid.
   gap: 1.5rem;
 }
 
-/*
-This makes the images responsive
-*/
-img {
-  max-width: 100%;
-  height: auto;
+/* nav dropmenu */
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 22px 14px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+  border-radius: 4px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  padding: 8px 14px;
+  background-color: #ffffff;
 }
