@@ -41,7 +41,7 @@
       <section class="stack-small" id="intro">
         <h2>Introduction</h2>
         <p>
-          Hello World! Pseudocoders here 👋. We are an exciting software development 
+          Hello World! Pseudocoders here 👋. <br><br>We are an exciting software development 
           startup that specialises in building web applications using HTML, CSS and JavaScript.
         </p>
       </section>
@@ -62,7 +62,6 @@
           </div>
 
           <div class="stack-small" id="yassien">
-
             <div class="row">
               <a href="https://github.com/yassienAbdillahi"><i class='fab fa-github' style='font-size:1.5rem'></i></a>
               <h3>Yassien (he/him)</h3>
@@ -86,8 +85,28 @@
         </div>
       </section>
 
-      <section id="contact">
+      <section class="stack-small" id="contact">
         <h2>Contact Form</h2>
+        <p>If you'd like to work with us or enquire about any of the services we offer, please complete the form below.</p>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br> 
+          <label for="companyName">Company Name:</label>
+          <input type="text" id="companyName" name="companyName" required><br><br> 
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          <label for="tel">Telephone Number:</label>
+          <input type="tel" id="tel" name="tel"><br><br>
+          
+   
+    
+    
+          <label for="message">Please provide a brief description of the type of project you would like us to potentially work on:</label><br><br>
+          <textarea id="message" name="message" rows="6" cols="60" placeholder="e.g. I would like you to build me a cool website for my hipster cafe"></textarea><br><br>
+          <label for="marketingConsent">Do you consent to receive marketing material?</label>
+          <input type="checkbox" id="marketingConsent" name="marketingConsent" required>
+          <button type="submit">Submit</button>
+        </form>
       </section>
 
       <footer>
