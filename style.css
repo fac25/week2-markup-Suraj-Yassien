@@ -152,7 +152,6 @@ nav ul li ul li a:hover {
 
 
 a:link {
-  
   text-decoration: none;
 }
 
@@ -169,4 +168,13 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+.screenReader-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
 }
