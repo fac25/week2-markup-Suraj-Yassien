@@ -20,7 +20,7 @@ h1 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 33%;
   height: auto;
 }
 
@@ -87,6 +87,8 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1.5rem;
 }
+
+
 
 /*classes for background-color and text color combos */
 .pallete1 {
@@ -200,6 +202,3 @@ a:active {
   overflow: hidden;
 }
 
-.work1 {
-  justify-content: end;
-}
