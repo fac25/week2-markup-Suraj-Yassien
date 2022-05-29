@@ -19,6 +19,12 @@ h1 {
   top: 2rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .nav-items {
   display: flex;
   padding: 10px 20px;
@@ -192,4 +198,8 @@ a:active {
   height: 1px;
   top: auto;
   overflow: hidden;
+}
+
+.work1 {
+  justify-content: end;
 }
