@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+/* added scroll-behavior */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(180deg, #FFD8BE, #FFEEDD, #F8F7FF);
+  background: linear-gradient(180deg, #ffd8be, #ffeedd, #f8f7ff);
 }
 
 h1 {
@@ -78,26 +84,36 @@ h1 {
 
 /*classes for background-color and text color combos */
 .pallete1 {
-  background-color: #9381FF;
+  background-color: #9381ff;
   color: white;
 }
 .pallete2 {
-  background-color: #B8B8FF;
+  background-color: #b8b8ff;
   color: black;
 }
 .pallete3 {
-  background-color: #F8F7FF;
+  background-color: #f8f7ff;
   color: black;
 }
 .pallete4 {
-  background-color: #FFEEDD;
+  background-color: #ffeedd;
   color: black;
 }
 .pallete5 {
-  background-color: #FFD8BE;
+  background-color: #ffd8be;
   color: black;
 }
 
+.stack-d {
+  margin-bottom: 1rem;
+}
+
+/* form-inline */
+
+.inline {
+  width: 240px;
+  display: inline-block;
+}
 
 /* nav dropmenu */
 
@@ -149,7 +165,6 @@ nav ul li ul li a:hover {
   padding: 8px 14px;
   /*background-color: #F8F7FF;*/
 }
-
 
 a:link {
   text-decoration: none;
