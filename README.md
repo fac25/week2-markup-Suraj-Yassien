@@ -1,6 +1,6 @@
 # Suraj & Yassien's Agency Website Project
 
-The task for this project, was to create an agency website (for a fictional software development company; we named ours 'Pseudocoders').
+The task for this project was to create an agency website (for a fictional software development company; we named ours 'Pseudocoders').
 
 #### User Stories
 
