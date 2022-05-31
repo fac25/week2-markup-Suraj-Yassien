@@ -1,24 +1,25 @@
 # Suraj & Yassien's Agency Website Project
 
-* [x] An introduction to your agency
-* [x] Information about each member of your team
-* [x] A way to get in touch if they are interested in working with you
+The task for this project, was to create an agency website (for a fictional software development company; we named ours 'Pseudocoders').
 
-* [] Browse your website on mobile, tablet, and desktop devices
-* [] Click to navigate to different sections of your webpage
-* [] Contact you to enquire about working with you
-* [] Visit your website at a publicly accessible domain name
+#### User Stories
 
+As a potential client, I want to:
+
+* [x] Browse your website on mobile, tablet, and desktop devices
+* [x] Click to navigate to different sections of your webpage
+* [x] Contact you to enquire about working with you
+* [x] Visit your website at a [publicly accessible domain name](https://fac25.github.io/week2-markup-Suraj-Yassien/)
 * [] Navigate your website using keyboard controls
-* [] Hear my screen reader describe the content on your website
+* [x] Hear my screen reader describe the content on your website
 
 
-# Acceptance Criteria 
+#### Acceptance Criteria 
 
 * [x] ‘About us’ section
 * [x] Contact form
-* [] Navigation menu
-* [] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
-* [] Information from the form doesn’t get submitted until the user clicks a button
+* [x] Navigation menu
+* [x] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
+* [x] Information from the form doesn’t get submitted until the user clicks a button
 
 
