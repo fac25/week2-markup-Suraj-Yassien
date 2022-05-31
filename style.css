@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,7 +33,7 @@ img {
 }
 
 .center {
-  max-width: 67vw;
+  max-width: 73vw;
   margin: 0 auto;
 }
 
