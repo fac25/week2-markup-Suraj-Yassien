@@ -121,54 +121,74 @@
         </div>
       </section>
 
-      <section class="stack-small" id="contact">
-        <h2>Contact Form</h2>
-        <p>
-          If you'd like to work with us or enquire about any of the services we
-          offer, please complete the form below.
-        </p>
-        <form action="">
+      <!-- Updated Contact Form -->
 
-          <label class="inline" for="name">Name:</label>
-          <input type="text" id="name" name="name" required /><br /><br />
+      <section id="contact">
+        <div id ="overlay">
+          <form action="">
+            <h2 id="form-h2">Contact Us</h2>
+            
+            <br>
+            <p>
+              If you'd like to work with us or enquire about any of the services we
+              offer, please complete the form below.
+            </p>
+            <br>
 
-          <label class="inline" for="companyName">Company Name:</label>
-          <input
-            type="text"
-            id="companyName"
-            name="companyName"
-            required
-          /><br /><br />
+            <!-- Name -->
+            <label class="stack-d inline" for="name">Name:</label>
+            <input type="text" id="name" name="name" required /><br /><br />
 
-          <label class="inline" for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br /><br />
-          
-          <label class="inline" for="tel">Telephone Number:</label>
-          <input type="tel" id="tel" name="tel" /><br /><br />
+            <!-- Company -->
+            <label class="stack-d inline" for="companyName">Company Name:</label>
+            <input
+              type="text"
+              id="companyName"
+              name="companyName"
+              required
+            /><br /><br />
 
-          <label for="message"
-            >Please provide a brief description of the type of project you would
-            like us to potentially work on:</label
-          ><br /><br />
-          <textarea
-            id="message"
-            name="message"
-            rows="6"
-            cols="40"
-            placeholder="e.g. I would like you to build me a cool website for my hipster cafe"
-          ></textarea
-          ><br /><br />
-          <label for="marketingConsent"
-            >Do you consent to receive marketing material?</label
-          >
-          <input
-            type="checkbox"
-            id="marketingConsent"
-            name="marketingConsent"
-            required
-          /><br /><br />
-          <button type="submit">Submit</button>
-        </form>
+            <!-- Email -->
+            <label class="stack-d inline" for="email">Email:</label>
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <!-- Telephone -->
+            <label class="stack-d inline" for="tel">Telephone Number:</label>
+            <input type="tel" id="tel" name="tel" required/><br /><br />
+
+            <!-- Message -->
+            <label for="message"
+              >Please provide a brief description of the type of project you would
+              like us to potentially work on:</label
+            ><br /><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="40"
+              placeholder="e.g. I would like you to build me a cool website for my hipster cafe"
+            ></textarea
+            ><br /><br />
+
+            <!-- Consent -->
+            <div class="row">
+              <label for="marketingConsent"
+                >Do you consent to receive marketing material?</label
+              >
+              <input
+                type="checkbox"
+                id="marketingConsent"
+                name="marketingConsent"
+                required
+              />
+           </div>
+            
+           <!-- Button -->
+           <div class="btn-center">
+              <input type="submit" value="Send Message">
+           </div>
+          </form>
+        </div>
       </section>
 
       <footer>
