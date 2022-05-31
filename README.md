@@ -10,7 +10,7 @@ As a potential client, I want to:
 * [x] Click to navigate to different sections of your webpage
 * [x] Contact you to enquire about working with you
 * [x] Visit your website at a [publicly accessible domain name](https://fac25.github.io/week2-markup-Suraj-Yassien/)
-* [] Navigate your website using keyboard controls
+* [ ] Navigate your website using keyboard controls
 * [x] Hear my screen reader describe the content on your website
 
 
