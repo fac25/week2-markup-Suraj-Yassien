@@ -15,9 +15,9 @@
 
 # Acceptance Criteria 
 
-* [] Navigation menu
 * [x] ‘About us’ section
 * [x] Contact form
+* [] Navigation menu
 * [] A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
 * [] Information from the form doesn’t get submitted until the user clicks a button
 
